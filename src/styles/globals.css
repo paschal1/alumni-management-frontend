@@ -1,0 +1,43 @@
+/* src/
+│── app/
+│   ├── layout.tsx
+│   ├── page.tsx
+│   ├── alumni/
+│   │   ├── page.tsx
+│   │   ├── [id]/page.tsx
+│   │   └── add/page.tsx
+│   ├── admin/
+│   │   ├── page.tsx
+│   │   ├── alumni/page.tsx
+│   │   ├── alumni/[id]/edit/page.tsx
+│   │   ├── alumni/add/page.tsx
+│   │   ├── events/page.tsx
+│   │   └── stats/page.tsx
+│   ├── login/page.tsx
+│   └── register/page.tsx
+│
+│── components/
+│   ├── Navbar.tsx
+│   ├── Sidebar.tsx
+│   ├── Footer.tsx
+│   ├── AlumniCard.tsx
+│   ├── AlumniTable.tsx
+│   ├── SearchBar.tsx
+│   ├── EventCard.tsx
+│   └── charts/
+│       ├── AlumniByYearChart.tsx
+│       ├── AlumniByCountryChart.tsx
+│       └── GenderRatioChart.tsx
+│
+│── context/
+│   └── AuthContext.tsx
+│
+│── hooks/
+│   └── useFetchAlumni.ts
+│
+│── lib/
+│   ├── api.ts
+│   └── auth.ts
+│
+│── styles/
+│   └── globals.css */
